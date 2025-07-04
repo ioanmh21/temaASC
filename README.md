@@ -1,6 +1,6 @@
 # temaASC
 
-# 📦 Memory Management Simulation
+# Memory Management Simulation
 
 ## Overview
 
@@ -13,7 +13,7 @@ The system manages "files" identified by a unique numeric descriptor ID (1–255
 
 ---
 
-## 🧾 Simplified Model
+## Simplified Model
 
 - **Memory Block**: 8 kB simulated by 1 Byte (8 bits).
 - **1D Total Memory**: 8 MB, divided into 8 kB blocks.
@@ -26,9 +26,9 @@ The system manages "files" identified by a unique numeric descriptor ID (1–255
 
 ---
 
-## ⚙️ Supported Operations
+## Supported Operations
 
-### 1️⃣ ADD
+### ADD
 
 - **Purpose**: Adds one or more files to memory.
 - **Logic**: Finds the first free interval (left-to-right) and allocates it.
@@ -39,7 +39,7 @@ The system manages "files" identified by a unique numeric descriptor ID (1–255
 
 ---
 
-### 2️⃣ GET
+### GET
 
 - **Purpose**: Locates a file by its descriptor ID.
 - **Logic**: Finds the start and end blocks for that file.
@@ -50,7 +50,7 @@ The system manages "files" identified by a unique numeric descriptor ID (1–255
 
 ---
 
-### 3️⃣ DELETE
+### DELETE
 
 - **Purpose**: Deletes a file from memory.
 - **Logic**: Sets all blocks occupied by the file to `0`.
@@ -58,7 +58,7 @@ The system manages "files" identified by a unique numeric descriptor ID (1–255
 
 ---
 
-### 4️⃣ DEFRAGMENTATION
+### DEFRAGMENTATION
 
 - **Purpose**: Reorganizes memory to remove gaps.
 - **Logic**:
@@ -68,7 +68,7 @@ The system manages "files" identified by a unique numeric descriptor ID (1–255
 
 ---
 
-## 📂 Source Files
+## Source Files
 
 | File Name                                | Description                                    |
 |------------------------------------------|------------------------------------------------|
@@ -77,7 +77,7 @@ The system manages "files" identified by a unique numeric descriptor ID (1–255
 
 ---
 
-## 💻 Compilation
+## Compilation
 
 The code is designed for **32-bit Linux** systems.
 
